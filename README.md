@@ -16,9 +16,11 @@ All specs are also shown on index page.
 
 
 ## Setup ```bash
-git clone <repo_url>
-cd phoneSpecsProject
+
+git clone https://github.com/volnagPython/brain_project.git
+cd brain_project
 python -m venv venv
+source venv/bin/activate
 source venv/bin/activate
 pip install -r requirements.txt
 playwright install
