@@ -1,10 +1,10 @@
 # Phone's Specifications Django Project
 
 ## Description
-Django project that can run three scrapers, PlayWright, Selenium, BS4 scrapers to parse and 
+Django project that can run three scrapers, PlayWright, Selenium, and BS4 to parse and 
 collect the phone's specifications from the website and 
 stores them in the PostgreSQL database. It takes about 5 min to collect the data.
-All specs are also shown on index page.
+All specs are also saved in results/ *.csv files.
 
 ## Tech stack
 - Python
